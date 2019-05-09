@@ -1,0 +1,48 @@
+@keyframes fadein{
+    from{opacity: 0.1}
+    to{opacity: 1.0}
+}
+
+
+.container{width: 300px; height: 300px; border-radius: 25px; text-align: center; animation-name: fadein; animation-duration: 1800ms}
+.container h2{font-size: larger; padding-top: 3%}
+.container #logo{margin: auto; display: block}
+
+.center{margin:0 auto; margin-top: 10%}
+.center-signup{margin: 0 auto; margin-top: 5%}
+.center-text{text-align: center}
+.right-text{text-align: right}
+.left-text{text-align: left}
+
+.inline{display: inline}
+.login-signup {padding-left: 0%; padding-top: 0%}
+.login-signup a{display: inline-block; padding: 0px 10px 0px 0px; text-decoration-line: none}
+
+.text-small{font-size: 18px}
+.text-medium{font-size: 20px}
+.text-large{font-size: 22px}
+.text-larger{font-size: 24px}
+.text-xlarge{font-size: 26px}
+
+.hidden{display:none!important;visibility:hidden}
+
+a {text-decoration-line: none}
+
+form fieldset{border: 0px}
+form #field{border: 0px; border-radius: 5px; width: 80%; height: 80%; margin: 5%; padding: 2%}
+form #button{border: 0px; border-radius: 5px; width: 50%; height: 50%;  margin: 5%; padding: 2%}
+
+.input-icon{width: 8px; height: 8px; display: block}
+
+.color-primary{color: #48a9a6;}
+.color-primary-dark{color: #022b3a}
+.color-accent{color: #e1e5f2}
+.color-accent1{color: #007991}
+.background-color-primary{background-color: #48a9a6;}
+.background-color-primary-dark{background-color: #022b3a}
+.background-color-accent{background-color: #e1e5f2}
+.background-color-accent1{background-color: #007991}
+.hover-color-primary :hover{color: #48a9a6}
+.hover-color-primary-dark :hover{color: #022b3a}
+.hover-color-accent :hover{color: #e1e5f2}
+.hover-color-accent1 :hover{color: #007991}
